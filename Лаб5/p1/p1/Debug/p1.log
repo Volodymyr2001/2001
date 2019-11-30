@@ -1,0 +1,11 @@
+﻿  p1.cpp
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall CDataSimple::CDataSimple(void)" (??0CDataSimple@@QAE@XZ) в функции _main
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: virtual __thiscall CDataSimple::~CDataSimple(void)" (??1CDataSimple@@UAE@XZ) в функции _main
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall CWorkspace::CWorkspace(class CDataChain &)" (??0CWorkspace@@QAE@AAVCDataChain@@@Z) в функции _main
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall CWorkspace::~CWorkspace(void)" (??1CWorkspace@@QAE@XZ) в функции _main
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: char const * __thiscall CWorkspace::GetChainString(void)" (?GetChainString@CWorkspace@@QAEPBDXZ) в функции "void __cdecl ShowFullSequence(class CWorkspace &)" (?ShowFullSequence@@YAXAAVCWorkspace@@@Z)
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall CDlgCommand::CDlgCommand(char const *,void (__cdecl*)(class CWorkspace &))" (??0CDlgCommand@@QAE@PBDP6AXAAVCWorkspace@@@Z@Z) в функции "public: __thiscall CDialogManager::CDialogManager(class CWorkspace &)" (??0CDialogManager@@QAE@AAVCWorkspace@@@Z)
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall CDialogManager::~CDialogManager(void)" (??1CDialogManager@@QAE@XZ) в функции _main
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall CDialogManager::RegisterCommand(char const *,void (__cdecl*)(class CWorkspace &))" (?RegisterCommand@CDialogManager@@QAEXPBDP6AXAAVCWorkspace@@@Z@Z) в функции _main
+p1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall CDialogManager::Run(void)" (?Run@CDialogManager@@QAEXXZ) в функции _main
+D:\ПРОГРАМУВАННЯ\програмування с++\Лаб5\p1\Debug\p1.exe : fatal error LNK1120: неразрешенных внешних элементов: 9
